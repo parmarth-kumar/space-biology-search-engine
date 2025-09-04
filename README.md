@@ -77,24 +77,13 @@ Open the app at `http://localhost:5173/` (default Vite port).
 
 | Home / Search                 | Research Modal                  |
 | ----------------------------- | ------------------------------- |
-| ![Home](screenshots/home.png) | ![Modal](screenshots/modal.png) |
-
-> Screenshots folder (`screenshots/`) should include clear examples of the main pages.
+| ![Home](screenshots/Home.png) | ![Modal](screenshots/Modal.png) |
 
 ---
 
 ## 🌐 Live Demo
 
 Check out the live demo here: **[Space Biology Knowledge Engine](https://space-biology-search-engine.vercel.app/)**
-
-> Replace the URL with your deployed app link.
-
-**Deployment Suggestion:**
-
-* **Netlify**: Super easy for React + Vite projects, automatic builds from GitHub, good for free-tier apps.
-* **Vercel**: Also excellent for React + Vite, faster builds, better preview links, great for team collaboration.
-
-**Recommendation**: Use **Vercel** if you want instant previews per branch; otherwise, **Netlify** works fine for a simple hackathon demo.
 
 ---
 
