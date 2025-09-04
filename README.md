@@ -83,7 +83,7 @@ Open the app at `http://localhost:5173/` (default Vite port).
 
 ## 🌐 Live Demo
 
-Check out the live demo here: **[Space Biology Knowledge Engine](https://space-biology-search-engine.vercel.app/)**
+Check out the live demo here: *[Space Biology Knowledge Engine](https://space-biology-search-engine.vercel.app/)*
 
 ---
 
