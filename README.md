@@ -75,11 +75,9 @@ Open the app at `http://localhost:5173/` (default Vite port).
 
 ## 🖼 Screenshots
 
-Home / Search
-![Home](screenshots/Home.png)
-
-Research Modal
-![Modal](screenshots/Modal.png)
+| Home / Search                 | Research Modal                  |
+| ----------------------------- | ------------------------------- |
+| ![Home](screenshots/Home.png) | ![Modal](screenshots/Modal.png) |
 
 ---
 
