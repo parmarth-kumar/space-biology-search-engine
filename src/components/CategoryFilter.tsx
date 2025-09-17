@@ -18,7 +18,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ selectedCategory, onCat
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center space-x-2 px-3 py-1.5 
         bg-gray-900/40 backdrop-blur-lg 
-        border border-white/20 
+        border border-gray/20 
         rounded-xl 
         cursor-pointer 
         hover:bg-gray-900/60 
@@ -39,7 +39,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ selectedCategory, onCat
           className="absolute top-full right-0 mt-2 w-52 
           bg-gray-900/40 
           backdrop-blur-lg 
-          border border-white/20 
+          border border-gray/20 
           rounded-xl 
           shadow-xl 
           z-50"
@@ -54,8 +54,8 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({ selectedCategory, onCat
                 }}
                 className={`w-full flex items-center space-x-2 px-3 py-2 rounded-lg text-left transition-all ${
                   selectedCategory === category.id
-                    ? 'bg-blue-500/20 text-blue-300 shadow-inner border border-blue-400/30'
-                    : 'hover:bg-white/10 text-gray-200 hover:text-white'
+                    ? 'bg-cyan-500/20 text-cyan-300 shadow-inner border border-cyan-400/30'
+                    : 'hover:bg-gray/10 text-gray-200 hover:text-white'
                 }`}
               >
                 <category.icon className="w-4 h-4 flex-shrink-0" />

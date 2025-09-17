@@ -21,14 +21,17 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, onSearchChange, resul
               type="text"
               value={searchTerm}
               onChange={(e) => onSearchChange(e.target.value)}
-              placeholder="Search experiments, organisms, or missions (e.g.radiation)"
+              // IMPROVED: More relevant placeholder text
+              placeholder="Search by title or keyword (e.g., radiation)"
+              // ADDED: Aria-label for better accessibility
+              aria-label="Search research papers"
               className="flex-1 bg-transparent text-white placeholder-gray-400 px-2 py-3 focus:outline-none text-lg"
             />
             <div className="flex items-center space-x-2 pr-2">
-              <div className="flex items-center space-x-1 px-3 py-1 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg border border-blue-500/30">
+              <div className="flex items-center space-x-1 px-3 py-1 bg-gradient-to-r from-cyan-500/20 to-violet-500/20 rounded-lg border border-blue-500/30">
                 <Sparkles className="w-4 h-4 text-blue-400" />
-                <span className="text-sm text-blue-300 font-medium"></span> 
-                {/* AI */}
+                {/* COMPLETED: Added text to the AI tag */}
+                <span className="text-sm text-blue-300 font-medium">AI</span>
               </div>
             </div>
           </div>
@@ -38,12 +41,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, onSearchChange, resul
       {searchTerm && (
         <div className="absolute top-full left-0 right-0 mt-2 p-3 bg-gray-900/90 backdrop-blur-sm border border-gray-700/50 rounded-lg">
           <p className="text-sm text-gray-300">
-            Found <span className="font-semibold text-blue-400">{resultCount}</span> research {resultCount === 1 ? 'paper' : 'papers'}
-            {searchTerm && (
-              <>
-                {' '}matching "<span className="text-white font-medium">{searchTerm}</span>"
-              </>
-            )}
+            Found <span className="font-semibold text-blue-400">{resultCount}</span> research {resultCount === 1 ? 'paper' : 'papers'} matching "<span className="text-white font-medium">{searchTerm}</span>"
           </p>
         </div>
       )}
