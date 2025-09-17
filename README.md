@@ -134,7 +134,7 @@ Open your browser and navigate to the local URL provided (usually `http://localh
 
 ## 🙏 Acknowledgements
 
-  * **Data Source:** This project uses the "Space Biology Publications" dataset provided by **NASA GeneLab**. It can be found [here](https://www.google.com/search?q=https://github.com/jgalazka/SB_publications).
+  * **Data Source:** This project uses the "Space Biology Publications" dataset provided by **NASA GeneLab**. It can be found [here](https://github.com/jgalazka/SB_publications).
   * **Team:** Built with 🩶 by [**ZeN-1**](https://www.spaceappschallenge.org/2025/find-a-team/zen-1/?tab=members).
 
 -----
