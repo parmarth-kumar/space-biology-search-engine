@@ -70,18 +70,18 @@ Install the required `npm` packages:
 npm install
 ```
 
-### 2\. Configuration (API Key)
+### 2\. Configuration (API Keys)
 
-This project requires a single API key from Google AI to power the data generation script.
+This project requires API keys from Google AI to power the data generation script.
 
-1.  **Generate API Key:** Go to [Google AI Studio](https://aistudio.google.com/) and create a free API key.
+1.  **Generate API Keys:** Have each team member go to [Google AI Studio](https://aistudio.google.com/) and create a free API key.
 
 2.  **Create `.env` file:** In the root of the project, create a file named `.env`.
 
-3.  **Add Key:** Open the `.env` file and add your key. Make sure the variable name is `GEMINI_API_KEY`.
+3.  **Add Keys:** Open the `.env` file and add your keys as a comma-separated list.
 
     ```
-    GEMINI_API_KEY=your_api_key_here
+    GEMINI_API_KEYS=key_from_person_1,key_from_person_2,key_from_person_3
     ```
 
 ### 3\. Data Generation
@@ -142,3 +142,4 @@ Open your browser and navigate to the local URL provided (usually `http://localh
 ## 📜 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
