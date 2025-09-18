@@ -84,7 +84,7 @@ function App() {
             />
             <div className="mt-4 flex flex-wrap justify-center gap-3 text-sm">
               <span className="text-gray-400">Popular searches:</span>
-              {['astronaut', 'stem cells', 'plant growth', 'radiation', 'microgravity'].map((term) => (
+              {['Microgravity', 'Radiation', 'Human Physiology', 'Plant Growth', 'Gene Expression', 'Stem Cells'].map((term) => (
                 <button
                   key={term}
                   onClick={() => setSearchTerm(term)}
@@ -97,7 +97,7 @@ function App() {
           </div>
         </section>
 
-        <section className="relative z-10 py-12 px-4 sm:px-6 lg:px-8">
+        <section className="relative z-10 py-4 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-2xl font-bold text-white">Browse by Category</h2>
@@ -137,7 +137,7 @@ function App() {
           </div>
         </section>
 
-        <section className="relative z-10 py-12 px-4 sm:px-6 lg:px-8">
+        <section className="relative z-10 py-4 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-2xl font-bold text-white">
